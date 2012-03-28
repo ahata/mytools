@@ -1,0 +1,5 @@
+def methodMissing(String name, args) {
+	def binding = new Binding(this.binding.variables)
+	binding.setVariable("args", args)
+	_engine_.run(name, binding)
+}
