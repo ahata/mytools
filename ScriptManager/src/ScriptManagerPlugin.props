@@ -1,5 +1,4 @@
-# Properties file for QuickNotepad plugin
-# $Id: QuickNotepad.props 6876 2006-09-02 20:39:49Z jchoyt $
+# Properties file for ScriptManager plugin
 
 # jEdit only needs to load the plugin the first time the user accesses it
 # the presence of this property also tells jEdit the plugin is using the new API
@@ -10,7 +9,7 @@ plugin.ScriptManagerPlugin.name=ScriptManager
 plugin.ScriptManagerPlugin.author=zhao
 
 # version number == jEdit version number
-plugin.ScriptManagerPlugin.version=1.1
+plugin.ScriptManagerPlugin.version=0.0.2
 
 # online help
 plugin.ScriptManagerPlugin.docs=index.html
